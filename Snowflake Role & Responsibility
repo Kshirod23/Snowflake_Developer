@@ -1,0 +1,60 @@
+Tell me about yorself?
+========================  
+Ok, My name is Kshirod Behera, I am bascically from Odisha.
+I graduated in odisha.
+I have around 4.6 years of experience in It.
+
+I was started as a PLSQL developer from 2019 to 2021 
+And currently I'm working as a Snowflake Developer from 2021 to till date with Accenture.
+Basically I am invloved in a food and beverage company project which is Garuda foods.
+Garuda foods is an Indonesian client company. Garuda food actually  manufacturing snacks,dry foods and beverage .
+
+ Working as a snowflake developer. My responsibilities are 
+
+1. requirement analysis and discussion with stakeholders/client on open queries and
+2. providing estimation, 
+3. developing snowflake database objects and data pipelines as per requirement
+4. then i do unit testing of that code and optimize the code if needed.
+5. Working with release team to push changes to prod environment
+6. Monitoring and provide support to pipelines which built.
+-------------------------------------------------------------------------------------------------
+Good understanding of Snowflake Archetecture,virtual warehouse,micro-partitions,cluster AND COST optimization.
+and Snowflake Cache,stored procedure UDF and task
+
+Snowflake Objects like Database,Schema,Table,Views,Stored Procedure,Udf
+Virtual Warehouse
+
+Good understanding of snowpipe,Streams,Task
+=========================================================
+I worked on snowflake stages,data loading and unloading ,snowflake tables
+------------------------------------------------------------------------------
+How requirement are logged - JIIRA tool
+
+How you are pushing changes to prod ?
+
+After development and unit testing, we used to checkin ddl, dml and python files in GitHub 
+prod folder and a change request we are creating where we mentioned what all activities to be 
+followed for prod deployment. Release team they used to promote dev codes to prod.
+
+
+I majorly work closely with the Snowflake cloud data platform to design, 
+develop, and maintain data solutions that enable efficient data storage, processing, and analysis.
+Basically in this project my role is creating Database,Schema,tables,views,materialized views.
+For ETL process we are using python as a ETL tool.
+To Extract data from different diff sources like pre-prod database and Dev-database.
+In this process I used to writing SQl queries in python envirnment to extract the data.
+That data load through SNOWSQL I used to PUT command in Snowsql command line to snowflake internal staging area.
+then after i Used to load data from stageing area to snowflake permanent table using COPY command.
+Before data load i used to   
+
+data migrating from traditional database to 
+snowflake date ware house and data modelling of snowflake data base,schemas,tables. 
+
+Good understanding of Snowflake Archetecture AND COST optimization
+Good understanding of snowflake stages.besically internal stage
+Good understanding of Snowflake tables.
+Zero-copy Cloining
+good understanding of dynamic data Masking policy.
+
+
+
