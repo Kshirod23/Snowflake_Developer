@@ -1,0 +1,151 @@
+Q1. what is time travel ?
+Time travel is nothing but accessing historical data at a particular period of time that has been modified deleted or dropped by some user
+okay so you can simply it's say accessing historical data .
+
+Q2. What ways to access time travel ?
+There are three ways to access time travel 
+  1. by using query ID
+  2. by using offset
+  3. by using timestamp 
+  --by using three ways we can able to access the historical data by using query ID offset and a time stamp.
+Q3. what is Syntax for time travel ?
+okay how to access this
+0:48
+time travel so select start from table
+0:50
+it will give the active data but I want
+0:52
+to access the historical data how can I
+0:54
+access by using before statement query
+0:58
+ID or by using offset or by using time
+1:00
+stem so it will give select St from EMP
+1:03
+will the latest data but I want to
+1:05
+access the historical data with the help
+1:06
+of time that is before statement query
+1:09
+ID or by using offset or by using time
+1:13
+stamp same thing next question is that
+1:16
+what so what are the session specific
+1:19
+tables okay see temper tables are called
+1:21
+as session specific tables it will be
+1:24
+available for the particular session so
+1:26
+data will be available for the
+1:28
+particular session it data will not be
+1:29
+available to the other sessions next
+1:32
+question is that what so types of tables
+1:35
+in Snowflake there are permanent table
+1:37
+transcent table and temporary tables
+1:40
+these are called snowflake internal
+1:42
+tables so by default when you create any
+1:44
+table permanent table will be created so
+1:47
+transcent table temporary table these
+1:49
+are the snowflake internal tables so
+1:51
+data will be stored inside snowlake and
+1:54
+next question is that what how to
+1:56
+disable time so supp like I want some
+1:59
+tables to disable the time travel so how
+2:01
+can you put alter table table name set
+2:05
+data retention time index equal to zero
+2:09
+so by default for all the tables it will
+2:11
+be one day so we are disabling with the
+2:12
+help of zero alter table table name set
+2:17
+data redention time index equal to zero
+2:20
+next question is that what okay see when
+2:23
+fail sa starts so answer is that what
+2:25
+once time travels the data mve to the
+2:28
+fail save so this is Av for only
+2:30
+permanent table once the time TR ends
+2:32
+for the permanent table the data will
+2:34
+move to the fail safe next question is
+2:37
+that what how to undrop a table so supp
+2:40
+like I drop a table by mistake but I
+2:42
+want to rest the table so by using what
+2:44
+parameter Bing undrop command undrop
+2:48
+table table name how to Reg table by
+2:50
+saying undrop table table name okay next
+2:54
+question is that what what is fail safe
+2:56
+period of transend table so remember so
+2:59
+transend table doesn't have fail sa the
+3:01
+answer is zero zero because fail sa is
+3:04
+not available for transcent tables and
+3:06
+temporary tables next question is that
+3:09
+so what is default retention time of
+3:11
+tables okay so for all like permanent
+3:13
+table transcent tables and tempor tables
+3:16
+so default retention time is what it is
+3:18
+one day one day okay same thing next
+3:20
+question is that what what is fail safe
+3:23
+period of permanent table so once time
+3:25
+tolerance data will move to the fail
+3:27
+save so this is available for only
+3:30
+tables how long it will it is Av for 7
+3:33
+Days okay hope this is clear so if you
+3:34
+like the content subscribe and share the
+3:36
+channel thank you for
+3:40
+watching
+
