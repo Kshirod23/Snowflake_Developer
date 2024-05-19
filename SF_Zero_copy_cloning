@@ -1,6 +1,19 @@
 Q1.What is zero copy cloning?
 
-Snowflake’s Zero Copy Cloning is a feature which provides a quick 
-and easy way to create a copy of any table, schema, or an entire database
-without incurring any additional costs as the derived copy shares the underlying storage with the original object. 
+zero copy cloning is  snowflake feature which is used to create or take a snapshot of database,schema and table
+main advantages of creating zero copy cloning is we can create multiple copies of same tables,database,schemas
+and no additional cost is assosiate with cloning object, thats why it is called zero copy cloning.
+Both cloned object and source object are share same storage.
+
+In traditional databases if we create copy of a table,if that table have million million of records it takes additional storage. 
+both source table and copy table share different storages that's why additional cost will be assosiate with copy table.
+
+
+
+
+
+
+
+
+
 
