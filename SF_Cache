@@ -1,0 +1,14 @@
+Do you know cache in snowflake?
+---------------------------------
+cache is a temporary storage location that stores copies of files or copies of data 
+so that they can be accessed faster in near future.
+it is nothing but a temporary storage location where it can hold some data or it can hold some files
+so that whenever we want to use those files in near future like in next 24 hours or in next two days
+so  we can access them in a faster manner 
+
+so in Snowflake this cache plays a important role in Saving cost and speeding up the results while we re execute a queries.
+it improves the query performance a lot .
+
+There are two types of catches available in Snowflake one is query results cache and the other one is local disk cache .
+1.results cache
+2.local disk cache
