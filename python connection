@@ -1,0 +1,15 @@
+how to retrieve data from any database using python ?
+
+we are extract data from oracle and load data in snowflake 
+for data extraction we use pyhon as a etl tool. 
+we use cx_Oracle extention module that enables python access to oracle database
+
+import cx_Oracle
+
+conn = cx_oracle.connect('SCOTT/TIGER@localhost/orcl')
+cur=conn.cursor()
+cur.execute('select * from emp')
+for line in cur
+  print(line)
+cur.close()
+conn.close()
