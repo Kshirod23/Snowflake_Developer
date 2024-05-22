@@ -1,0 +1,18 @@
+Q1. How to write internal stages?
+ANS: CREATE OR REPLACE STAGE ADIDAS_INTERNAL_LOAD_STAGE;
+     OR
+     CREATE STAGE IF NOT EXISTS  ADIDAS_INTERNAL_LOAD_STAGE;
+
+Here we dont use database name and schema name.if use then getting error LIST @ADIDAS_INTERNAL_LOAD_STAGE;
+
+NOTE :- Here we don't use [OR REPLACE] and [IF NOT EXISTS]  at a time.
+if we use both then getting error.
+Error like this below 
+--------------------------------------------------------
+CREATE OR REPLACE STAGE IF NOT EXISTS ADIDAS_INTERNAL_LOAD_STAGE;
+FILE_FORMAT = (TYPE='CSV' FIELD_DELIMITER=',' SKIP_HEADER=1);             [ --001004 (0A000): SQL compilation error:    options IF NOT EXISTS and OR REPLACE are incompatible. ]
+
+Q1.HOW TO CREATE FILE FORMAT?
+CREATE OR REPLACE FILE FORMAT CSV_FF
+TYPE='CSV' FIELD_DELIMITER=',' SKIP_HEADER=1;
+
