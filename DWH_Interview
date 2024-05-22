@@ -1,0 +1,23 @@
+Q1. What is Data Warehouse vs Data Mart Vs Data Lake ?
+
+Data Warehouse:
+--------------
+A data warehouse is a central repository that stores data in a structured format.
+It serves as a foundation for analytics and business intelligence.
+Data warehouses collect processed data from transactional systems and various business applications.
+They are designed to support complex queries and provide a consistent view of data across an organization.
+Examples: Sales data, customer records, and financial transactions.
+Data Mart:
+--------
+A data mart is a subset of a data warehouse.
+It serves the specific needs of a particular business unit (e.g., finance, marketing, or sales).
+Data marts contain pre-aggregated and filtered data relevant to a specific area.
+They are optimized for specific business functions and allow for faster query performance.
+Examples: Sales data mart, Marketing data mart.
+Data Lake:
+---------
+A data lake is a central repository for raw data and unstructured data.
+Unlike data warehouses, data lakes can store data in any format.
+Data lakes allow you to store data first and process it later.
+They are suitable for handling large volumes of diverse data, including text, images, and logs.
+Examples: Sensor data, social media posts, and log files.
