@@ -9,6 +9,13 @@ In traditional databases if we create copy of a table,if that table have million
 both source table and copy table share different storages that's why additional cost will be assosiate with copy table.
 
 
+Cloning Syntax:
+--------------
+CREATE OR REPLACE 'CLONED_OBJECT_TYPE' 'CLONED_OBJECT_NAME' CLONE 'SOURCE_OBJECT';
+EXAMPLE : Here database name is ADIDAS_DB, We want to clone this object
+
+CREATE OR REPLACE DATABASE ADIDAS_DB_CLONEDB CLONE ADIDAS_DB;
+
 
 
 
