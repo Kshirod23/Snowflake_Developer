@@ -1,25 +1,21 @@
 Do you know cache in snowflake?
 ---------------------------------
-cache is a temporary storage location that stores copies of files or copies of data 
-so that they can be accessed faster in near future.
-it is nothing but a temporary storage location where it can hold some data or it can hold some files
-so that whenever we want to use those files in near future like in next 24 hours or in next two days
-so  we can access them in a faster manner 
+cache is a temporary storage location that stores copies of files or copies of data so that we can be accessed faster in near future.
+It is nothing but a temporary storage location where it can hold some data or it can hold some files
+so that whenever we want to use those files in near future like in next 24 hours or in next two days so  we can access them in a faster manner 
 
 so in Snowflake this cache plays a important role in Saving cost and speeding up the results while we re execute a queries.
 it improves the query performance a lot .
 
-There are two types of catches available in Snowflake one is query results cache and the other one is local disk cache .
+There are two types of caches available in Snowflake one is query results cache and the other one is local disk cache .
 1.results cache
 2.local disk cache
 
 What is Result Cache ?
 ---------------------
 Result Cache is located in the cloud services layer .
-This cached data will be available for next 24 hours.
-that means whenever we run some query in snowflake web UI,
-it will go to the permanent storage location  first time and 
-bring the data from micro partitions and it will store the result set in the cloud services layer.
+This cached data will be available for next 24 hours, that means whenever we run some query in snowflake web UI,
+it will go to the permanent storage location  first time and bring the data from micro partitions and it will store the result set in the cloud services layer.
 So within next 24 hours if we run the same query it will go to cloud services layer and display record within milliseconds.
 
 suppose For the First Time The query is taking 5 minutes to fetch the results but next time if we
