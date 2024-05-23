@@ -27,3 +27,17 @@ If we run a query in Snowflake first it will check the data is available in the 
 if the data is available in the results cache it will bring the data and display 
 that means it is very faster because it is not going to the remote disk or local disk.
 --------------------------------------------------------------------------------------------------------------------------
+What is Local Disk Cache ?
+
+
+
+
+
+
+
+
+
+
+
+
+
