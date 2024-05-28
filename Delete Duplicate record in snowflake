@@ -1,0 +1,26 @@
+Q1.How to Delete/Remove Duplicate Records/Rows from Snowflake Table?
+-Use DISTINCT keyword
+-ALTER TABLE using SWAP WITH method
+-Use ROW_NUMBER Analytic function
+-Use ROW_NUMBER Analytic function with QUALIFY clause.
+-Use group by Clause
+
+--Use DISTINCT keyword
+--Case 1:
+--Step1:Create a new table test_distinct using DISTINCT Clause
+--Step2:Drop existing Table test
+--Step3:Rename new table with Original table test.
+
+create table test_distinct as
+select distinct a,b,c from test;
+select * from test_distinct;
+drop table test;
+alter table test_distinct rename to test;
+SELECT * FROM TEST;
+
+--ALTER TABLE using SWAP WITH method
+create or replace table test_distinct as
+select distinct * from test;
+alter table test SWAP WITH test_distinct;
+drop table test_distinct;
+SELECT * FROM TEST;
