@@ -17,6 +17,18 @@ EXAMPLE : Here database name is ADIDAS_DB, We want to clone this object
 CREATE OR REPLACE DATABASE ADIDAS_DB_CLONEDB CLONE ADIDAS_DB;
 
 
+--Interview Question
+--Does cloning object occupies Extra storage?
+select * from test_clone_new;
+select * from information_schema.table_storage_metrics
+where table_catalog = 'adidas_db'
+and table_schema = 'adidas_sc'
+and table_name  in ('test','test_clone_new')
+and table_dropped is null;
+
+
+
+--Suppose if we insert a new record into the main table does it reflect in the clone table vice versa?
 
 
 
